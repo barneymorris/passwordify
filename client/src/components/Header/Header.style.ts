@@ -4,6 +4,7 @@ export const useStyles = makeStyles()((theme) => ({
   wrapper: {
     display: "flex",
     justifyContent: "center",
-    marginTop: "10%",
+    paddingTop: "10%",
+    textAlign: "center",
   },
 }));

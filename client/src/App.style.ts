@@ -2,12 +2,12 @@ import { makeStyles } from "tss-react/mui";
 
 export const useStyles = makeStyles()((theme) => ({
   contentWrapper: {
-    display: "flex",
     margin: "0 auto",
-    justifyContent: "center",
+    width: "fit-content",
   },
 
   buttonWrapper: {
     marginTop: 48,
+    width: "100%",
   },
 }));

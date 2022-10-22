@@ -11,5 +11,6 @@ export const useStyles = makeStyles()((theme) => ({
     width: "fit-content",
     margin: "0 auto",
     cursor: "pointer",
+    marginBottom: 64,
   },
 }));

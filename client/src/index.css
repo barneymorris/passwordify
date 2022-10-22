@@ -18,6 +18,13 @@ code {
     monospace;
 }
 
+.full-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .container {
   padding: 0 32px;
 }

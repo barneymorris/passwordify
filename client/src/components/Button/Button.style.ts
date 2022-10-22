@@ -8,5 +8,8 @@ export const useStyles = makeStyles()((theme) => ({
     borderRadius: "8px",
     fontSize: 24,
     cursor: "pointer",
+    display: "block",
+    width: "100%",
+    maxHeight: 63,
   },
 }));
